@@ -25,6 +25,9 @@ Add these scripts to your `package.json` to handle Prisma generation and the com
 first install tsup after installing
 Create a `tsup.config.ts` file in your project root. This converts your TypeScript code into a single, optimized `.mjs` file that works perfectly in serverless environments.
 
+
+ **  and add this at the end of server.ts`export default app` **
+
 ```typescript
 import { defineConfig } from "tsup";
 
